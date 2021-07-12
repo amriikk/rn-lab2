@@ -36,7 +36,7 @@ function MenuItem(props) {
       </View>
       <Text>Special Instructions: {null}</Text>
       <TextInput
-        placeholder="Type instructions here"
+        placeholder="Kit Includes: Nozawa’s signature warm rice, and seaweed, plus an assortment of condiments."
         onSubmitEditing={({ nativeEvent, currentTarget }) => {
           console.log(nativeEvent.text);
           // TODO (part 3): Update special instructions text
