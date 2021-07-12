@@ -11,12 +11,12 @@ function MenuItem(props) {
     <View style={styles.container}>
       <View style={styles.photoContainer}>
         <Image
-          source={require("../assets/placeholder-image.png")}
+          source={require("../assets/kazunori.jpeg")}
           style={styles.photo}
         />
       </View>
-      <Text style={{ fontWeight: "bold" }}>{"FOOD NAME"}</Text>
-      <Text>Price: ${1000}</Text>
+      <Text style={{ fontWeight: "bold" }}>{props.name}</Text>
+      <Text>Price: ${props.price}</Text>
       <Text>Quantity: {quantity}</Text>
       <View style={styles.buttonsContainer}>
         <Button
@@ -53,9 +53,10 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     flexWrap: "wrap",
-    backgroundColor: "#fff",
+    backgroundColor: "lightskyblue",
     alignItems: "center",
     justifyContent: "space-between",
+    borderRadius: 12,
     borderStyle: "solid",
     borderWidth: 2,
     width: "90%",
