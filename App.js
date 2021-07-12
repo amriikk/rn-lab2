@@ -6,7 +6,7 @@ import MenuItem from "./components/MenuItem";
 export default function App() {
   // let name = 'Salmon Sashimi';
   // let price = 22.00;
-  // let imageSource = './assets/kazunori.jpeg'
+  // let imageSource = '../assets/kazunori.jpeg'
   return (
     <View style={styles.container}>
       <Text style={{ fontSize: 30 }}>Snap Eating Account</Text>
