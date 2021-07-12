@@ -23,8 +23,7 @@ function MenuItem(props) {
           title="-"
           onPress={() => {
             console.log("minus pressed");
-            // TODO (part 2): decrease quantity by 1
-            // watch out for negative quantity
+            setQuantity(quantity++)
           }}
         />
         <Button
